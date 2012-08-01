@@ -1,5 +1,10 @@
 Clonecamp::Application.routes.draw do
+  get "projects/index"
+
+  resources :projects
   devise_for :users
+
+  root :to => 'static_pages#home'
 
   devise_scope :user do
     get '/signin', :to => 'devise/sessions#new'

@@ -1,0 +1,17 @@
+=form_for @project do |f|
+  -if @project.errors.any?
+    %div.alert.alert-error
+      %h2 #{pluralize(@project.errors.count, "error")}
+      %ul
+        - @project.errors.full_messages.each do |msg|
+          %li #{msg}
+  %p
+    = f.label :name, "Project Name"
+    = f.text_field :name
+
+    = f.label :public, "Public"
+    = f.radio_button(:public, true, :checked => true)
+    = f.label :public, "Private"
+    = f.radio_button(:public, false)
+  %p
+    =f.submit :class => "btn"
