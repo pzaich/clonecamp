@@ -16,6 +16,8 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'simplecov'
+  gem 'guard-livereload'
+  gem 'fabrication'
 end
 
 group :production do
