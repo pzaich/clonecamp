@@ -11,7 +11,8 @@ class ProjectsController < ApplicationController
   end
 
   def show
-    #@list = @project.lists.new
+    @project = Project.find(params[:id])
+    @list = @project.lists.new
   end
 
   def edit

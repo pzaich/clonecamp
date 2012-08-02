@@ -19,6 +19,10 @@ class ListsController < ApplicationController
     @list = @project.lists.new
   end
 
+  def show
+    @list = List.find_by_id(params[:id])
+  end
+
   private
 
   def find_project
