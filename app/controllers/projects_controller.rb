@@ -7,11 +7,14 @@ class ProjectsController < ApplicationController
   end
 
   def new
-    @project = Project.new
+    @project = current_user.projects.new
   end
 
   def show
-    #@list = @project.lists.new
+
+    if @project.public == false && current_user != @project.user
+      redirect_to root_path, :flash => {:error => "you do not have access to this page"}
+    end
   end
 
   def edit
@@ -26,7 +29,7 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    @project = Project.new(params[:project])
+    @project =current_user.projects.new(params[:project])
 
     if @project.save
       flash[:success] = "Successfully created project!"

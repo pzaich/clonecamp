@@ -1,3 +1,15 @@
-%h1= @list.name
+%div{:id => "list_#{@list.id}"}
 
-%h3 Tasks will go under here
+  %h1= @list.name
+
+  = link_to "Create Task", new_list_task_path(@list), :remote => true, :locals => {:list => @list, :task => @new_task }, :class => "create_task"
+
+
+  .new_task_form
+
+  %ul
+    -@tasks.each do |task|
+      %li.task
+        %h4= task.name
+        %p=task.description
+

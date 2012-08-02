@@ -1,2 +1,12 @@
-=link_to "New Project", new_project_path
-%h1 This is the homepage.
+%h1 Welcome back, #{ current_user.email }
+
+%h4= link_to "New Project", new_project_path
+
+%h3 Public
+
+-display_based_on_public(:public).each do |project|
+  =link_to project.name, project_path(project)
+
+%h3 Private
+-display_based_on_public(:private).each do |project|
+  =link_to project.name, project_path(project)

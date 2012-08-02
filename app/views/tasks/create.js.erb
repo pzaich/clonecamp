@@ -1,0 +1,3 @@
+$('#list_<%= list.id%> .create_task').show();
+$('#list_<%= list.id%> .new_task').remove();
+$("#list_<%= list.id%> ul").prepend('<li class="task"><h4><%=task.name%></h4><p><%= task.description %></p></li>');

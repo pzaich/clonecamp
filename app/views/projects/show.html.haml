@@ -10,6 +10,18 @@
 
 %ul.list-area
   - @project.lists.each do |list|
-    %li.list
+    %li.list{:id => "list_#{list.id}"}
       %h3 #{ link_to list.name, list_path(list)}
+      %a.icon-chevron-down.show
+      = link_to "Create Task", new_list_task_path(list), :remote => true, :locals => {:list => @list, :task => @task }, :class => "create_task"
+
+      .new_task_form
+
       %ul
+        -list.tasks.each do |task|
+          %li.task
+            %h4= task.name
+            %p=task.description
+
+
+

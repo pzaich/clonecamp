@@ -1,0 +1,10 @@
+=form_for([@list, @task], :remote => true, :method => :post, :class => "new_task") do |f|
+  %p
+    = f.label :name, "List Name"
+    = f.text_field :name
+  %p
+    = f.label :description, "Description"
+    = f.text_area :description
+
+  %p
+    =f.submit :class => "btn"

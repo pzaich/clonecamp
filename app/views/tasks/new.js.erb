@@ -1,0 +1,2 @@
+$('#list_<%= @list.id %> .new_task_form').prepend('<%= j(render 'new_task', :task => @task) %>');
+$('#list_<%= @list.id %> .create_task').hide();
