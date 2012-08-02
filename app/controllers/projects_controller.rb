@@ -7,6 +7,7 @@ class ProjectsController < ApplicationController
   end
 
   def show
+    @list = @project.lists.new
   end
 
   def edit

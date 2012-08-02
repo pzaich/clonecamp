@@ -8,6 +8,13 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
         1,
         null,
         1,
@@ -78,6 +85,35 @@
         1,
         null
       ],
+      "/Users/apprentice/Desktop/clonecamp/app/controllers/lists_controller.rb": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
       "/Users/apprentice/Desktop/clonecamp/app/controllers/projects_controller.rb": [
         1,
         1,
@@ -88,6 +124,7 @@
         null,
         null,
         1,
+        0,
         null,
         null,
         1,
@@ -126,21 +163,55 @@
         null,
         null
       ],
+      "/Users/apprentice/Desktop/clonecamp/app/controllers/tasks_controller.rb": [
+        1,
+        null
+      ],
       "/Users/apprentice/Desktop/clonecamp/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/clonecamp/app/helpers/lists_helper.rb": [
         1,
         null
       ],
       "/Users/apprentice/Desktop/clonecamp/app/helpers/projects_helper.rb": [
         1,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/apprentice/Desktop/clonecamp/app/helpers/static_pages_helper.rb": [
         1,
         null
       ],
+      "/Users/apprentice/Desktop/clonecamp/app/helpers/tasks_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/clonecamp/app/models/list.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
       "/Users/apprentice/Desktop/clonecamp/app/models/project.rb": [
         1,
         1,
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/clonecamp/app/models/task.rb": [
+        1,
+        1,
+        null,
         1,
         null,
         1,
@@ -160,85 +231,8 @@
         null,
         1,
         null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/controllers/static_pages_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/projects_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/static_pages_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/project_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        2,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        2,
-        null,
-        2,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/views/projects/index.html.haml_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
       ]
     },
-    "timestamp": 1343858680
+    "timestamp": 1343868866
   }
 }

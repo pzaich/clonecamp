@@ -1,7 +1,14 @@
 Clonecamp::Application.routes.draw do
   get "projects/index"
 
-  resources :projects
+  resources :projects do
+    resources :lists
+  end
+
+  resources :lists do
+    resources :tasks
+  end
+
   devise_for :users
 
   root :to => 'static_pages#home'

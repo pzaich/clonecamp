@@ -1,0 +1,13 @@
+=form_for([@project, @list], :remote => true, :method => :post) do |f|
+  -if list.errors.any?
+    %div.alert.alert-error
+      %h2 #{pluralize(list.errors.count, "error")}
+      %ul
+        - list.errors.full_messages.each do |msg|
+          %li #{msg}
+  %p
+    = f.label :name, "List Name"
+    = f.text_field :name
+
+  %p
+    =f.submit :class => "btn"

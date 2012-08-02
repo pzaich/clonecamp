@@ -1,3 +1,15 @@
 %h1= @project.name
+%h3 Privacy Status: #{privacy_status(@project)}
 
 = link_to "edit", edit_project_path(@project)
+
+%h3 Lists
+= link_to "Create List", new_project_list_path(@project, @list), :remote => true, :locals => {:list => @list, :project => @project }
+
+.form-area
+
+%ul.list-area
+  - @project.lists.each do |list|
+    %li.list
+      %h3 #{list.name}
+      %ul
