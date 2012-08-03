@@ -15,9 +15,9 @@
     %li.list{:id => "list_#{list.id}"}
       %h3 #{ link_to list.name, list_path(list)}
 
-      %a.icon-chevron-down.show
+      %a.icon-chevron-up.show
 
-      = link_to "Create Task", new_list_task_path(list), :remote => true, :locals => {:list => @list, :task => @task }, :class => "create_task" 
+      = link_to "Create Task", new_list_task_path(list), :remote => true, :locals => {:list => @list, :task => @task }, :class => "create_task"
 
       .new_task_form
 

@@ -29,7 +29,6 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    warn current_user
     @project = current_user.projects.new(params[:project])
     if @project.save
       flash[:success] = "Successfully created project!"
