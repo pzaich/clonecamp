@@ -1,5 +1,6 @@
 class ListsController < ApplicationController
   before_filter :find_project
+
   def create
     @list = @project.lists.new(params[:list])
     if @list.save

@@ -12,6 +12,6 @@ class Project < ActiveRecord::Base
   private
 
   def create_role
-    self.roles.new(:user_id => current_user.id, :project_id => self.id, :access_level => 10)
+    self.roles.new(:user_id => self.user_id, :project_id => self.id, :access_level => 10)
   end
 end

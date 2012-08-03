@@ -1,1 +1,1 @@
-$('.list-area').prepend('<li class="list"><h3><%= link_to list.name, list_path(list) %></h3><ul></ul></li>');
+$('.list-area').prepend('<li class="list" id="list_<%= list.id %>"><h3><%= link_to list.name, list_path(list) %></h3><a class="icon-chevron-down show"></a><%= link_to "Create Task", new_list_task_path(list), :remote => true, :locals => {:list => @list, :task => @task }, :class => "create_task" %><div class="new_task_form"></div><ul></ul></li>');

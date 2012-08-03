@@ -11,6 +11,7 @@ class ProjectsController < ApplicationController
   end
 
   def show
+    @lists = @project.lists.order('created_at DESC')
     if @project.public == false && current_user != @project.user
       redirect_to root_path, :flash => {:error => "you do not have access to this page"}
     end
@@ -28,8 +29,8 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    @project =current_user.projects.new(params[:project])
-
+    warn current_user
+    @project = current_user.projects.new(params[:project])
     if @project.save
       flash[:success] = "Successfully created project!"
       redirect_to project_path(@project)
