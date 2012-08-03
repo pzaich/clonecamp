@@ -1,0 +1,2 @@
+
+$('#task_<%= @task.id %>').children().replaceWith("<%= j(render 'new_task', :task => @task) %>");

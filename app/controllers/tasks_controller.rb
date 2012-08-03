@@ -1,5 +1,6 @@
 class TasksController < ApplicationController
   before_filter :find_list
+  before_filter :find_task, :only => [:edit, :update]
 
   def new
     @task = @list.tasks.new
@@ -20,7 +21,18 @@ class TasksController < ApplicationController
     end
   end
 
+  def edit
+    @task = Task.find_by_id(params[:id])
+  end
+
+  def update
+    @task.update_attributes(params[:task])
+  end
+
   private
+  def find_task
+    @task = Task.find_by_id(params[:id])
+  end
 
   def find_list
     @list = List.find_by_id(params[:list_id])

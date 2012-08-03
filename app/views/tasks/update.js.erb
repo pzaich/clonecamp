@@ -1,0 +1,2 @@
+$('#edit_task_<%= @task.id %>').replaceWith('<h4><%= @task.name %></h4><p><%= @task.description %></p><%= link_to "Edit Task", edit_list_task_path(@list, @task), :remote => true, :class => "edit_task" %>');
+

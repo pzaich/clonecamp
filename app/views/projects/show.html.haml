@@ -14,7 +14,7 @@
   - @lists.each do |list|
     %li.list{:id => "list_#{list.id}"}
       %h3 #{ link_to list.name, list_path(list)}
-
+      =link_to "Edit", edit_list_path(list), :remote => true, :class => "edit_list"
       %a.icon-chevron-up.show
 
       = link_to "Create Task", new_list_task_path(list), :remote => true, :locals => {:list => @list, :task => @task }, :class => "create_task"
@@ -23,7 +23,10 @@
 
       %ul
         -list.tasks.each do |task|
-          %li.task
-            %h4= task.name
+          %li.task{:id => "task_#{task.id}"}
+            %div
+              %h4= task.name
 
-            %p= task.description
+              %p= task.description
+              =link_to "Edit Task", edit_list_task_path(list, task), :remote => true, :class => "edit_task"
+
