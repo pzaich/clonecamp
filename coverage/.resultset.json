@@ -259,6 +259,14 @@
         1,
         null
       ],
+      "/Users/apprentice/Desktop/clonecamp/app/models/role.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
       "/Users/apprentice/Desktop/clonecamp/app/models/task.rb": [
         1,
         1,
@@ -283,6 +291,9 @@
         1,
         null
       ],
+      "/Users/apprentice/Desktop/clonecamp/spec/helpers/static_pages_helper_spec.rb": [
+        1
+      ],
       "/Users/apprentice/Desktop/clonecamp/spec/controllers/projects_controller_spec.rb": [
         1,
         null,
@@ -296,16 +307,6 @@
         1,
         null,
         null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/controllers/tasks_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/lists_helper_spec.rb": [
-        1
       ],
       "/Users/apprentice/Desktop/clonecamp/spec/helpers/projects_helper_spec.rb": [
         1,
@@ -321,91 +322,14 @@
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/static_pages_helper_spec.rb": [
-        1
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/tasks_helper_spec.rb": [
-        1
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/list_spec.rb": [
+      "/Users/apprentice/Desktop/clonecamp/spec/views/projects/index.html.haml_spec.rb": [
         1,
         null,
         1,
         1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/project_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/task_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        null,
         null
       ]
     },
-    "timestamp": 1343951860
+    "timestamp": 1343953349
   }
 }

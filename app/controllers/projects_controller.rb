@@ -11,7 +11,6 @@ class ProjectsController < ApplicationController
   end
 
   def show
-
     if @project.public == false && current_user != @project.user
       redirect_to root_path, :flash => {:error => "you do not have access to this page"}
     end
