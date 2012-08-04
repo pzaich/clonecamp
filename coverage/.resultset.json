@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/apprentice/Desktop/clonecamp/config/routes.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/config/routes.rb": [
         1,
         1,
         null,
@@ -80,12 +80,12 @@
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/controllers/application_controller.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/controllers/lists_controller.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/controllers/lists_controller.rb": [
         1,
         1,
         1,
@@ -111,56 +111,6 @@
         0,
         0,
         0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/app/controllers/projects_controller.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
         null,
         null,
         1,
@@ -170,16 +120,8 @@
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/controllers/static_pages_controller.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/controllers/projects_controller.rb": [
         1,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/app/controllers/tasks_controller.rb": [
         1,
         1,
         null,
@@ -189,16 +131,35 @@
         null,
         1,
         0,
-        0,
-        0,
+        null,
+        null,
+        1,
+        null,
         0,
         0,
         null,
         null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
         0,
         0,
         0,
         null,
+        0,
+        0,
         null,
         null,
         null,
@@ -209,7 +170,46 @@
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/helpers/application_helper.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/controllers/static_pages_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/controllers/tasks_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/helpers/application_helper.rb": [
         1,
         null,
         1,
@@ -222,35 +222,26 @@
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/helpers/lists_helper.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/helpers/lists_helper.rb": [
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/helpers/projects_helper.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/helpers/projects_helper.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/helpers/static_pages_helper.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/helpers/static_pages_helper.rb": [
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/helpers/tasks_helper.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/helpers/tasks_helper.rb": [
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/models/list.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/app/models/project.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/models/list.rb": [
         1,
         1,
         1,
@@ -259,7 +250,16 @@
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/models/task.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/models/project.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/models/task.rb": [
         1,
         1,
         null,
@@ -268,7 +268,7 @@
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/app/models/user.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/app/models/user.rb": [
         1,
         null,
         null,
@@ -283,73 +283,14 @@
         1,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/spec/controllers/projects_controller_spec.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/spec/controllers/projects_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/spec/controllers/static_pages_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/controllers/tasks_controller_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/lists_helper_spec.rb": [
-        1
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/projects_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/static_pages_helper_spec.rb": [
-        1
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/helpers/tasks_helper_spec.rb": [
-        1
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/list_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/project_spec.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/spec/models/project_spec.rb": [
         1,
         null,
         1,
@@ -365,29 +306,7 @@
         null,
         null
       ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/task_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/clonecamp/spec/models/user_spec.rb": [
+      "/Users/mnguyen916/Dropbox/Matt Nguyen/Code/Rails/projects/clonecamp/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -406,6 +325,6 @@
         null
       ]
     },
-    "timestamp": 1343951860
+    "timestamp": 1344038354
   }
 }
